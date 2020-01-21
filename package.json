@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-typescript",
-  "description": "Gatsby TypeScript starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "porto",
+  "description": "axhon porto",
+  "version": "3.0.0",
+  "author": "Axhon Ruiz-Gonzalez <axhonruiz@gmail.com>",
   "dependencies": {
     "@types/node": "^8.0.7",
     "@types/react": "15.0.21",
@@ -10,7 +10,8 @@
     "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-typescript": "^1.4.10"
+    "gatsby-plugin-typescript": "^1.4.10",
+    "react": "^16.12.0"
   },
   "keywords": [
     "gatsby, typescript"
@@ -24,10 +25,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@types/react-helmet": "^5.0.15",
     "prettier": "^1.8.2"
-  },
-  "contributors": [
-    "fabien0102 <fabien0102@gmail.com>",
-    "Hays Clark <hays.clark@gmail.com>"
-  ]
+  }
 }
