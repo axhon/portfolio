@@ -1,0 +1,25 @@
+body {
+  --lightGray: rgb(210, 209, 203);
+  --rosyBrown: rgb(160, 137, 147);
+  --darkGray: rgb(94, 43, 78);
+  --dimGray: rgb(95, 74, 76);
+  --black: rgb(25, 14, 24);
+
+  --primaryColor: var(--darkGray);
+  --secondaryColor: var(--lightGray);
+  --tertiaryColor: var(--dimGray);
+  --accentColor: var(--rosyBrown);
+
+  --textColor: var(--black);
+  --textBackground: var(--lightGray);
+  --backgroundColor: var(--lightGray);
+
+  background-color: var(--backgroundColor);
+}
+
+*,
+*:after,
+*:before {
+  --debug: 1px dashed red;
+  border: var(--debug);
+}
