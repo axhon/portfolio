@@ -14,10 +14,18 @@ const Hero: React.FC<{}> = () => {
 
             <ul>
                 <li>
-                    <SocialIcon url="https://www.github.com/axhon" />
+                    <SocialIcon
+                        url="https://www.github.com/axhon"
+                        fgColor="#111"
+                        bgColor="#fff"
+                    />
                 </li>
                 <li>
-                    <SocialIcon url="https://www.linkedin.com/in/axhon-ruiz" />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/axhon-ruiz"
+                        fgColor="#fff"
+                        bgColor="#111"
+                    />
                 </li>
             </ul>
         </header>

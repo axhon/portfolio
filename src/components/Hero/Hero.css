@@ -49,9 +49,20 @@
     top: 85%;
     transform: translate(-50%, -50%);
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .Hero ul li {
     margin: 0 4px;
     padding: 2px;
+}
+.Hero ul li:first-child {
+    margin: 0 4px 0 0;
+    padding: 2px 2px 2px 0;
+}
+
+.Hero ul li:last-child {
+    margin: 0 0 0 4px;
+    padding: 2px 0 2px 2px;
 }
