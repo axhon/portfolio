@@ -1,0 +1,57 @@
+.Hero {
+    width: 100vw;
+    height: 97vh;
+    background: #151515 url(../../assets/images/intro-bg.jpg) no-repeat center
+        bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+
+    opacity: 0.9;
+
+    text-align: center;
+}
+
+.Hero-title {
+    color: #cc005f;
+}
+
+.Hero-intro {
+    font-family: 'poppins-medium', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.071;
+}
+
+.Hero-copy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Hero-subtitle {
+    color: #ccc;
+}
+
+.Hero-overlay {
+    width: 100%;
+    height: 97vh;
+    opacity: 0.75;
+    background: #111;
+    position: absolute;
+}
+
+.Hero ul {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.Hero ul li {
+    margin: 0 4px;
+    padding: 2px;
+}
