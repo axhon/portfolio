@@ -4,8 +4,10 @@ body {
     --darkGray: rgb(94, 43, 78);
     --dimGray: rgb(95, 74, 76);
     --black: rgb(25, 14, 24);
+    --white: rgb(255, 255, 255);
+    --red-purple: #cc005f;
 
-    --primaryColor: var(--darkGray);
+    --primaryColor: var(--red-purple);
     --secondaryColor: var(--lightGray);
     --tertiaryColor: var(--dimGray);
     --accentColor: var(--rosyBrown);

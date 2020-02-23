@@ -1,11 +1,11 @@
 .Hero {
     width: 100vw;
     height: 97vh;
-    background: #151515 url(../assets/images/intro-bg.jpg) no-repeat center
+    background: var(--black) url(../assets/images/intro-bg.jpg) no-repeat center
         bottom;
     background-size: cover;
     background-attachment: fixed;
-    color: #ffffff;
+    color: var(--white);
 
     opacity: 0.9;
 
@@ -13,11 +13,10 @@
 }
 
 .Hero-title {
-    color: #cc005f;
+    color: var(--primaryColor);
 }
 
 .Hero-intro {
-    font-family: 'poppins-medium', sans-serif;
     font-weight: bold;
     font-size: 42px;
     line-height: 1.071;
@@ -31,7 +30,7 @@
 }
 
 .Hero-subtitle {
-    color: #ccc;
+    color: var(--light-gray);
 }
 
 .Hero-overlay {
