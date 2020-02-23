@@ -4,7 +4,7 @@
 
     text-align: center;
 
-    padding: 0 8px;
+    padding: 24px;
 }
 
 .AboutMe h2 {
@@ -15,4 +15,86 @@
 .Introduction-picture {
     border-radius: 50%;
     width: 6.6rem;
+}
+
+.resume-btn {
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 8px;
+}
+
+.abt {
+    display: grid;
+    gap: 8px;
+    grid-template-areas:
+        'intro'
+        'profile'
+        'skills'
+        'resume';
+}
+
+.abt-introduction {
+    grid-area: intro;
+
+    display: grid;
+    grid-template-areas:
+        'title title title'
+        '. pic .'
+        'blurb blurb blurb';
+}
+
+@media (min-width: 765px) {
+    .abt {
+        max-width: 800px;
+        margin: 0 auto;
+        grid-template-areas:
+            'intro intro'
+            'profile skills'
+            'resume resume';
+    }
+
+    .abt-introduction {
+        grid-area: intro;
+
+        display: grid;
+        grid-template-areas:
+            'title title title'
+            'pic blurb blurb';
+
+        gap: 4px;
+    }
+
+    .abt-introduction p {
+        padding-top: 8px;
+    }
+}
+
+.abt-introduction h3 {
+    grid-area: title;
+}
+
+.abt-introduction img {
+    grid-area: pic;
+}
+
+.abt-introduction p {
+    grid-area: blurb;
+}
+
+.abt-profile {
+    grid-area: profile;
+    text-align: left;
+}
+
+.abt-skills {
+    grid-area: skills;
+    text-align: left;
+}
+
+.abt-resume {
+    grid-area: resume;
 }
