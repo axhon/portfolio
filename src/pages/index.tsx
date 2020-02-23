@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
-import Wrapper from '../components/Wrapper/Wrapper'
-import Nav from '../components/Nav/Nav'
-import Hero from '../components/Hero/Hero'
+import Hero from '../components/Hero'
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -19,7 +17,7 @@ interface IndexPageProps {
 const LandingPage: React.FC<IndexPageProps> = props => {
     return (
         <>
-            <Hero src="https://axhon.net/images/intro-bg.jpg" />
+            <Hero />
             <h1>Hi people</h1>
             <p>
                 Welcome to your new{' '}

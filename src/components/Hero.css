@@ -1,7 +1,7 @@
 .Hero {
     width: 100vw;
     height: 97vh;
-    background: #151515 url(../../assets/images/intro-bg.jpg) no-repeat center
+    background: #151515 url(../assets/images/intro-bg.jpg) no-repeat center
         bottom;
     background-size: cover;
     background-attachment: fixed;
