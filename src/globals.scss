@@ -22,7 +22,7 @@ body {
 *,
 *:after,
 *:before {
-    /* --debug: 1px dashed red; */
+    // --debug: 1px dashed red;
     border: var(--debug);
     box-sizing: border-box;
 }

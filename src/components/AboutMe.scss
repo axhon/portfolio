@@ -7,22 +7,7 @@
     padding: 24px;
 }
 
-.Introduction-picture {
-    border-radius: 50%;
-    width: 6.6rem;
-}
-
-.resume-btn {
-    text-decoration: none;
-    cursor: pointer;
-    width: 100%;
-    display: block;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 8px;
-}
-
-.abt {
+.About {
     display: grid;
     gap: 8px;
     grid-template-areas:
@@ -30,66 +15,73 @@
         'profile'
         'skills'
         'resume';
-}
 
-.abt-introduction {
-    grid-area: intro;
+    &-introduction {
+        grid-area: intro;
 
-    display: grid;
-    grid-template-areas:
-        'title title title'
-        '. pic .'
-        'blurb blurb blurb';
+        display: grid;
+        grid-template-areas:
+            'title title title'
+            '. pic .'
+            'blurb blurb blurb';
+
+        & h3 {
+            grid-area: title;
+        }
+
+        & img {
+            grid-area: pic;
+            border-radius: 50%;
+            width: 6.6rem;
+        }
+
+        & p {
+            grid-area: blurb;
+        }
+    }
+
+    &-profile {
+        grid-area: profile;
+        text-align: left;
+    }
+
+    &-skills {
+        grid-area: skills;
+        text-align: left;
+    }
+
+    &-resume {
+        grid-area: resume;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        display: block;
+        background-color: var(--black);
+        color: var(--white);
+        padding: 8px;
+    }
 }
 
 @media (min-width: 765px) {
-    .abt {
+    .About {
         max-width: 800px;
         margin: 0 auto;
         grid-template-areas:
             'intro intro'
             'profile skills'
             'resume resume';
+
+        &-introduction {
+            display: grid;
+            grid-template-areas:
+                'title title title'
+                'pic blurb blurb';
+
+            gap: 4px;
+
+            p {
+                padding-top: 8px;
+            }
+        }
     }
-
-    .abt-introduction {
-        grid-area: intro;
-
-        display: grid;
-        grid-template-areas:
-            'title title title'
-            'pic blurb blurb';
-
-        gap: 4px;
-    }
-
-    .abt-introduction p {
-        padding-top: 8px;
-    }
-}
-
-.abt-introduction h3 {
-    grid-area: title;
-}
-
-.abt-introduction img {
-    grid-area: pic;
-}
-
-.abt-introduction p {
-    grid-area: blurb;
-}
-
-.abt-profile {
-    grid-area: profile;
-    text-align: left;
-}
-
-.abt-skills {
-    grid-area: skills;
-    text-align: left;
-}
-
-.abt-resume {
-    grid-area: resume;
 }

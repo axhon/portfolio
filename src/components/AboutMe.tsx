@@ -7,8 +7,8 @@ const AboutMe: React.FC<{}> = () => {
         <section className="AboutMe">
             <h2>About</h2>
 
-            <div className="abt">
-                <div className="abt-introduction">
+            <div className="About">
+                <div className="About-introduction">
                     <h3>Let me introduce myself.</h3>
                     <img src={profile} className="Introduction-picture" />
                     <p>
@@ -19,7 +19,7 @@ const AboutMe: React.FC<{}> = () => {
                     </p>
                 </div>
 
-                <div className="abt-profile">
+                <div className="About-profile">
                     <h3>Profile</h3>
                     <p>
                         Born in San Salvador, El Salvador, my family emigrated
@@ -30,7 +30,7 @@ const AboutMe: React.FC<{}> = () => {
                     </p>
                 </div>
 
-                <div className="abt-skills">
+                <div className="About-skills">
                     <h3>Skills</h3>
                     <p>
                         These are my top self-scored skills. You can find a more
@@ -40,7 +40,7 @@ const AboutMe: React.FC<{}> = () => {
                 </div>
 
                 <a
-                    className="resume-btn abt-resume"
+                    className="About-resume"
                     href="https://resume.creddle.io/resume/i0ynygosl1u"
                 >
                     Download Resume

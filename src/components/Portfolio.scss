@@ -1,0 +1,58 @@
+.Portfolio {
+    background-color: var(--dim-gray);
+    text-align: center;
+
+    height: 97vh;
+    padding: 24px;
+
+    @media (min-width: 765px) {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+.Works {
+    display: grid;
+    height: 100%;
+
+    grid-template-areas:
+        'one three'
+        'two four';
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+
+    &-one {
+        grid-area: one;
+    }
+
+    &-two {
+        grid-area: two;
+    }
+
+    &-three {
+        grid-area: three;
+    }
+
+    &-four {
+        grid-area: four;
+    }
+}
+
+.Work {
+    img {
+        margin: 0;
+    }
+}
+
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+    opacity: 0.8;
+    color: var(--white);
+    background-color: #111;
+}
