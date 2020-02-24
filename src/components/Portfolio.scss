@@ -1,19 +1,18 @@
 .Portfolio {
     background-color: var(--dimGray);
     text-align: center;
-
+    width: 100%;
     padding: 24px;
-
-    @media (min-width: 765px) {
-        max-width: 800px;
-        margin: 0 auto;
-    }
 }
 
 .Works {
     display: grid;
     max-height: 100%;
     margin: 0 auto;
+
+    @media (min-width: 765px) {
+        max-width: 800px;
+    }
 
     grid-template-areas:
         'one'
