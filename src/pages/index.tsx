@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Hero from '../components/Hero'
 import AboutMe from '../components/AboutMe'
 import Portfolio from '../components/Portfolio'
+import Footer from '../components/Footer'
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -24,6 +25,8 @@ const LandingPage: React.FC<IndexPageProps> = props => {
             <AboutMe />
 
             <Portfolio />
+
+            <Footer />
         </>
     )
 }

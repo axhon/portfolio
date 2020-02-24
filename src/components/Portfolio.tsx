@@ -1,7 +1,6 @@
 import * as React from 'react'
 import krPic from '../assets/images/knowledgerocket_app.png'
 import bassDrumPic from '../assets/images/bass_drum_sticker.png'
-import wzSitePic from '../assets/images/wz_site.png'
 import './Portfolio.scss'
 
 interface WorkProps {
