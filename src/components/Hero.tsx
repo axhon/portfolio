@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { SocialIcon } from 'react-social-icons'
-import './Hero.css'
+import './Hero.scss'
 
 const Hero: React.FC<{}> = () => {
     return (

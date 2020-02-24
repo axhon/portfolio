@@ -1,7 +1,8 @@
 import * as React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Hero from '../components/Hero'
 import AboutMe from '../components/AboutMe'
+import Portfolio from '../components/Portfolio'
 
 // Please note that you can use https://github.com/dotansimha/graphql-code-generator
 // to generate all types from graphQL schema
@@ -22,7 +23,7 @@ const LandingPage: React.FC<IndexPageProps> = props => {
 
             <AboutMe />
 
-            <Link to="/page-2/">Go to page 2</Link>
+            <Portfolio />
         </>
     )
 }

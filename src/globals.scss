@@ -2,7 +2,7 @@ body {
     --lightGray: rgb(210, 209, 203);
     --rosyBrown: rgb(160, 137, 147);
     --darkGray: rgb(94, 43, 78);
-    --dimGray: rgb(95, 74, 76);
+    --dimGray: #ebebeb;
     --black: rgb(25, 14, 24);
     --white: rgb(255, 255, 255);
     --red-purple: #cc005f;
@@ -25,4 +25,9 @@ body {
     /* --debug: 1px dashed red; */
     border: var(--debug);
     box-sizing: border-box;
+}
+
+h2 {
+    color: var(--primaryColor);
+    text-transform: uppercase;
 }

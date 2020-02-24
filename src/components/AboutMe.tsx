@@ -1,6 +1,6 @@
 import * as React from 'react'
 import profile from '../assets/images/axhon-profile.jpg'
-import './AboutMe.css'
+import './AboutMe.scss'
 
 const AboutMe: React.FC<{}> = () => {
     return (
