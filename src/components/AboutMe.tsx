@@ -12,10 +12,12 @@ const AboutMe: React.FC<{}> = () => {
                     <h3>Let me introduce myself.</h3>
                     <img src={profile} className="Introduction-picture" />
                     <p>
-                        I&apos;m a Full-Stack Developer currently based on Oahu,
-                        HI. Currently my focus is on web-based applications
-                        built with Nodejs and Typescript. I also like to play
-                        music and perform on stage.
+                        I&apos;m a Software Engineer based in Boston, MA.
+                        Currently, I&apos;m working for{' '}
+                        <a href="https://wikipedia.org/wiki/wayfair">Wayfair</a>{' '}
+                        building out their UI on multiple customer-facing pages.
+                        Professional Bug Squasher. I also like to play music and
+                        perform on stage.
                     </p>
                 </div>
 
@@ -32,11 +34,14 @@ const AboutMe: React.FC<{}> = () => {
 
                 <div className="About-skills">
                     <h3>Skills</h3>
-                    <p>
-                        These are my top self-scored skills. You can find a more
-                        accurate list of my skills in my resume, or ask me on
-                        twitter!
-                    </p>
+                    <p>I work with these technologies regularly:</p>
+                    <ul>
+                        <li>Javascript/Typescript</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>PHP</li>
+                        <li>GraphQL</li>
+                    </ul>
                 </div>
 
                 <a

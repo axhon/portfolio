@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Axhon Ruiz-Gonzalez`,
+        title: `Axhon: Software Engineer`,
     },
     plugins: [
         `gatsby-plugin-sass`,

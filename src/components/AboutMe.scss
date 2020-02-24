@@ -48,6 +48,13 @@
     &-skills {
         grid-area: skills;
         text-align: left;
+        p {
+            margin: 0;
+        }
+
+        li {
+            margin: 0;
+        }
     }
 
     &-resume {
