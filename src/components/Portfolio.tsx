@@ -44,9 +44,6 @@ const Portfolio: React.FC<{}> = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
-                <div className="Works-four">
-                    <div className="coming-soon">Coming Soon</div>
-                </div>
             </div>
         </section>
     )
