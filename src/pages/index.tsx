@@ -22,7 +22,7 @@ interface IndexPageProps {
     }
 }
 
-const LandingPage: React.FC<IndexPageProps> = props => {
+const LandingPage = (props: IndexPageProps) => {
     return (
         <>
             <Helmet>

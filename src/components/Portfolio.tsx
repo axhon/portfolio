@@ -43,6 +43,12 @@ const Portfolio: React.FC<{}> = () => {
                         allowFullScreen
                     ></iframe>
                 </div>
+                <div className="Works-four">
+                    <Work
+                        imgUrl="https://storage.googleapis.com/wf-blogs-engineering-media/2021/02/a419315a-2020-11-09-10.52.19.gif"
+                        url="https://tech.wayfair.com/2021/02/using-storybook-to-enhance-our-frontend-developer-experience/"
+                    />
+                </div>
             </div>
         </section>
     )

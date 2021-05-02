@@ -17,12 +17,14 @@
     grid-template-areas:
         'one'
         'two'
-        'three';
+        'three'
+        'four';
 
     @media (min-width: 750px) {
         grid-template-areas:
             'one one'
-            'two three';
+            'two three'
+            'four four';
     }
 
     gap: 4px;

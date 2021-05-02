@@ -15,9 +15,9 @@ const AboutMe: React.FC<{}> = () => {
                         I&apos;m a Software Engineer based in Boston, MA.
                         Currently, I&apos;m working for{' '}
                         <a href="https://wikipedia.org/wiki/wayfair">Wayfair</a>{' '}
-                        building out their UI on multiple customer-facing pages.
-                        Professional Bug Squasher. I also like to play music and
-                        perform on stage.
+                        as a tech lead building out their UI on multiple customer-facing pages.
+                        Professional Bug Squasher. 
+                        I also like to play music and perform on stage.
                     </p>
                 </div>
 
